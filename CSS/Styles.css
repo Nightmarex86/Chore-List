@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+#main-container{
+    background-color: lightslategray    ;
+    min-height:720px;
+    width:900px;
+    padding:80px;
+    margin:60px auto;
+
+}
+#input-container{
+    text-align: center;
+    margin-top:20px;
+}
+#input-container input{
+    width:441px;
+    height:94px;
+    text-align: center;
+    border:none;
+    font-size:20px;
+    border-radius:5px;
+}
+#input-container button{
+    height:94px;
+    width:87px;
+    border:none;
+    font-size:20px;
+    border-radius:5px;
+}
+#add-btn{
+    background-color: #FFCC68;
+}
+#cancel-btn{
+    background-color: #FF9548;
+}
+#chores-el{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#chores-el div{
+    background-color: #FFCC68;
+    margin-bottom:20px;
+    width: 625px;
+    height:92px;
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+    padding:20px;
+}

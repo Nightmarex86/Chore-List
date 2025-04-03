@@ -6,19 +6,24 @@
     <title>Chore List</title>
     <!-- Add Font Awesome if not already included -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Chore List</h1>
-    <div class="container">
-        <label>Enter Chore:</label>
-        <div id="input-container">
-            <input type="text" id="input-el" placeholder="Do dishes">
-            <button id="add-btn"><i class='fas fa-arrow-right'></i></button>
-            <button id="cancel-btn"><i class='fa fa-times'></i></button>
-        </div>
-        <div id="chores-el">
-            
+    <div id="main-container">
+        <h1>Chore List</h1>
+        <div class="container">
+            <div id="input-container">
+                <input type="text" id="input-el" placeholder="Do dishes">
+                <button id="add-btn"><i class='fas fa-arrow-right'></i></button>
+                <button id="cancel-btn"><i class='fa fa-times'></i></button>
+            </div>
+            <div id="chores-el">
+            </div>
         </div>
     </div>
+    <script type="module" src="../JS/Script.js"></script>
 </body>
 </html>
