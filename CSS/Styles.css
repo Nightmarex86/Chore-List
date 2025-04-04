@@ -58,3 +58,14 @@ h1{
     font-size: 30px;
     padding:20px;
 }
+#clear-btn{
+    background-color: #FF9548;
+    display:block;
+    margin:20px auto;
+    width: 625px;
+    height:92px;
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+    padding:20px;
+}
